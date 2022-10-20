@@ -1,0 +1,17 @@
+.feedbacks{
+    text-align: center;
+    margin: auto;
+    margin: 30px auto;
+    border: 2px solid silver;
+    border-radius: 3px;
+}
+@media only screen and (min-width: 768px){
+    .feedbacks{
+        width: 40%;
+    }
+}
+@media only screen and (max-width: 899px){
+    .feedbacks{
+        width: 85%;
+    }
+}
